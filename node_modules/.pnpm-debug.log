@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+    "err": {
+      "name": "pnpm",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"/home/runner/svelte-1\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "pnpm: No package.json (or package.yaml, or package.json5) was found in \"/home/runner/svelte-1\".\n    at readProjectManifest (/nix/store/9n37q3ic75mia0n0jvsmzzmg8ays3mm5-pnpm-7.3.0/lib/node_modules/pnpm/dist/pnpm.cjs:20853:13)\n    at async Object.readProjectManifestOnly (/nix/store/9n37q3ic75mia0n0jvsmzzmg8ays3mm5-pnpm-7.3.0/lib/node_modules/pnpm/dist/pnpm.cjs:20857:28)\n    at async readProjectManifestOnly (/nix/store/9n37q3ic75mia0n0jvsmzzmg8ays3mm5-pnpm-7.3.0/lib/node_modules/pnpm/dist/pnpm.cjs:44020:24)\n    at async Object.handler (/nix/store/9n37q3ic75mia0n0jvsmzzmg8ays3mm5-pnpm-7.3.0/lib/node_modules/pnpm/dist/pnpm.cjs:179659:24)\n    at async /nix/store/9n37q3ic75mia0n0jvsmzzmg8ays3mm5-pnpm-7.3.0/lib/node_modules/pnpm/dist/pnpm.cjs:187855:21\n    at async run (/nix/store/9n37q3ic75mia0n0jvsmzzmg8ays3mm5-pnpm-7.3.0/lib/node_modules/pnpm/dist/pnpm.cjs:187829:34)\n    at async runPnpm (/nix/store/9n37q3ic75mia0n0jvsmzzmg8ays3mm5-pnpm-7.3.0/lib/node_modules/pnpm/dist/pnpm.cjs:188047:5)\n    at async /nix/store/9n37q3ic75mia0n0jvsmzzmg8ays3mm5-pnpm-7.3.0/lib/node_modules/pnpm/dist/pnpm.cjs:188039:7"
+    }
+  }
+}

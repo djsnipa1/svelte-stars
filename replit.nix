@@ -1,5 +1,6 @@
 { pkgs }: {
     deps = [
+        pkgs.tmate
         pkgs.nodejs-16_x
         pkgs.wget
         pkgs.bashInteractive
@@ -8,6 +9,7 @@
         pkgs.neovim
         pkgs.bat
         pkgs.lf
+        pkgs.upterm
       
     ];
 }
