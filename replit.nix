@@ -1,5 +1,6 @@
 { pkgs }: {
     deps = [
+        pkgs.lazygit
         pkgs.tmate
         pkgs.nodejs-16_x
         pkgs.wget
@@ -10,6 +11,8 @@
         pkgs.bat
         pkgs.lf
         pkgs.upterm
-      
+        
     ];
 }
+
+
