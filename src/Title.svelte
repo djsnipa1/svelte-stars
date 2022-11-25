@@ -7,8 +7,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400&family=Bahianita&family=Bebas+Neue&family=Berkshire+Swash&family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Cinzel+Decorative:wght@400;700&family=DM+Serif+Display&family=Lalezar&family=Megrim&family=Righteous&family=Satisfy&family=Teko&display=swap"
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400&family=Bahianita&family=Bebas+Neue&family=Berkshire+Swash&family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Cinzel+Decorative:wght@400;700&family=DM+Serif+Display&family=Lalezar&family=Megrim&family=Righteous&family=Satisfy&family=Teko&display=swap"
   rel="stylesheet"
 />
 
