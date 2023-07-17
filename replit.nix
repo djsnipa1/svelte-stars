@@ -1,8 +1,9 @@
 { pkgs }: {
     deps = [
+        pkgs.neovim-unwrapped
         pkgs.lazygit
         pkgs.tmate
-        pkgs.nodejs-16_x
+        pkgs.nodejs
         pkgs.wget
         pkgs.bashInteractive
         pkgs.nodePackages.pnpm

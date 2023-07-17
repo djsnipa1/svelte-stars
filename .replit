@@ -1,6 +1,6 @@
-run = ["bash", "main.sh"]
+run = ["./start.sh"]
 
-entrypoint = "main.sh"
+#entrypoint = "README.md"
 
 hidden=[".config"]
 

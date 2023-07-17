@@ -2,7 +2,6 @@
   import { css } from "./cssVars.js";
   let size = 28;
   let color = "#ff0000";
-  let fontSize = 2.5;
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -11,25 +10,39 @@
   rel="stylesheet"
 />
 
-<input bind:value={fontSize} type="range" min="1" max="5" step=".1" />
+<!-- <input bind:value={fontSize} type="range" min="1" max="5" step=".1" />
 <input bind:value={color} type="color" />
-<p use:css={{ color }}>font-size: {fontSize}px, color: {color}</p>
+<p use:css={{ color }}>font-size: {fontSize}px, color: {color}</p> -->
 
 <!-- <p use:cssVariables={{ size, color }}>Hello world</p> -->
 
 <div id="titleWrapper">
   <div id="cbDotCom"><span>chadboyce.com</span></div>
-  <div use:css={{ fontSize }} id="title"><span>Coming Soon</span></div>
+  <div id="title"><span>Coming Soon</span></div>
 </div>
 
+<!-- <div id="overlay"></div> -->
+
 <style>
+    :global(body) {
+        margin: 0;
+        padding: 0;
+    }
+    #overlay {
+        position: absolute;
+        background-color: #ff0000;
+        height: 150px;
+        width: 50px;
+        top: 100px;
+        left: 100px;
+        z-index: 2;
+    }
   #title {
-    --fontSize: ;
     color: #fff;
     text-align: center;
     font-family: "Cinzel Decorative", cursive;
     font-weight: 200;
-    font-size: calc(var(--fontSize) * 1rem);
+    font-size: 2.5rem;
     letter-spacing: 10px;
     margin-top: 60px;
   }
@@ -54,8 +67,5 @@
     /*     filter: blur(3px); */
   }
 
-  p {
-    --color: ;
-    color: var(--color);
-  }
+  
 </style>
